@@ -1,0 +1,15 @@
+[data-bs-ride="true"] {
+    position: relative;
+}
+
+.carousel-item > img {
+    width: 200px !important;
+    height: 200px;
+}
+
+[data-bs-ride="true"] div[class="carousel-item"] img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px !important;
+}
